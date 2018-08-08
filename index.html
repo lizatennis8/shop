@@ -10,9 +10,8 @@
   </head>
   <body>
     <div class="container">
-
-
-    <h1>Commissions</h1>
+    <h2>Request a Commissioned Piece</h2>
+    <form id="formOne">
     <label>Canvas Size</label>
     <select class="form-control" id="size">
       <option>120 x 60</option>
@@ -52,12 +51,12 @@
         <label>Main Color of the piece:</label>
         <input id="color" class="form-control" type="color">
       </div>
-
-
-
-
-
-
+      <button type="submit" class="btn btn-info">Submit your commission request for review</button>
+    </form>
+      <div id="submission">
+        <h3>Your commision details:</h3>
+        <p>You have requested a <span class="size"></span><span class="style"></span> piece featuring <span class="color"></span> to be delivered on <span class="date"></span> with an estimated price range of <span class="price"></span>. Thank you for your request. Liza will be in contact within the week.</p>
     </div>
+  </div>
   </body>
 </html>

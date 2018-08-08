@@ -3,9 +3,10 @@
   height: 100px;
 }
 
-body {
+.form-control{
+  width: 300px;
 }
 
-.form-control {
-  width: 300px;
+#submission{
+  display: none;
 }
