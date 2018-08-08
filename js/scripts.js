@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
   $("#formOne").submit(function() {
-    var sizeInput = $("input#size").val();
-    var styleInput = $("input#style").val();
+    var sizeInput = $("#size").val();
+    var styleInput = $("#style").val();
     var priceInput = $("input:radio[name=price]:checked").val();
-    var dateInput = $("input#date").val();
-    var colorInput = $("input#color").val();
+    var dateInput = $("#date").val();
+    var colorInput = $("#color").val();
 
   $(".size").text(sizeInput);
   $(".style").text(styleInput);
