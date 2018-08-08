@@ -9,7 +9,55 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1>Shop LT</h1>
+    <div class="container">
 
+
+    <h1>Commissions</h1>
+    <label>Canvas Size</label>
+    <select class="form-control" id="size">
+      <option>120 x 60</option>
+      <option>120 x 75</option>
+      <option>120 x 90</option>
+    </select>
+    <label>Style</label>
+    <select class="form-control" id="style">
+      <option>Sketch</option>
+      <option>Painting</option>
+      <option>Digital</option>
+    </select>
+    <label>Pricing Estimate</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="price" value="100-500">
+          $100-$500
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="price" value="500-1000">
+          $500-$1000
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="price" value="1000+">
+          $1000+
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="date">Desired Delivery:</label>
+        <input id="date" class="form-control" type="date">
+      </div>
+      <div class="form-group">
+        <label>Main Color of the piece:</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+
+
+
+
+
+
+    </div>
   </body>
 </html>
